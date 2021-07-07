@@ -1,4 +1,4 @@
-package com.coinmarket.utilities;
+package Amplience.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;

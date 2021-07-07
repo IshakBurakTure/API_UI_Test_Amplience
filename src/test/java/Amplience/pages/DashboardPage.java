@@ -1,2 +1,4 @@
-package Amplience.pages;public class DashboardPage {
+package Amplience.pages;
+
+public class DashboardPage extends BasePage{
 }

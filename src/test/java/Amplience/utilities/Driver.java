@@ -1,4 +1,4 @@
-package com.coinmarket.utilities;
+package Amplience.utilities;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;

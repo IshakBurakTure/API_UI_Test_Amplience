@@ -1,4 +1,4 @@
-package com.coinmarket.utilities;
+package Amplience.utilities;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -13,20 +13,6 @@ import java.util.List;
 
 public class BrowserUtils {
 
-    /**
-     * Switches to new window by the exact title. Returns to original window if target title not found
-     * @param targetTitle
-     */
-    public static void switchToWindow(String targetTitle) {
-        String origin = Driver.get().getWindowHandle();
-        for (String handle : Driver.get().getWindowHandles()) {
-            Driver.get().switchTo().window(handle);
-            if (Driver.get().getTitle().equals(targetTitle)) {
-                return;
-            }
-        }
-        Driver.get().switchTo().window(origin);
-    }
 
     /**
      * Moves the mouse to given element
@@ -52,22 +38,7 @@ public class BrowserUtils {
         return elemTexts;
     }
 
-    /**
-     * Extracts text from list of elements matching the provided locator into new List<String>
-     *
-     * @param locator
-     * @return list of strings
-     */
-    public static List<String> getElementsText(By locator) {
 
-        List<WebElement> elems = Driver.get().findElements(locator);
-        List<String> elemTexts = new ArrayList<>();
-
-        for (WebElement el : elems) {
-            elemTexts.add(el.getText());
-        }
-        return elemTexts;
-    }
 
     /**
      * Performs a pause

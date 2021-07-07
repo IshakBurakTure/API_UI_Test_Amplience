@@ -9,7 +9,7 @@ import org.junit.Assert;
 
 import java.util.Map;
 
-public class ProfileCheck {
+public class GitProfileCheck {
 
     DashboardPage dashboardPage = new DashboardPage();
 
