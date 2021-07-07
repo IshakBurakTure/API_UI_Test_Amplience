@@ -43,5 +43,12 @@ public class JsonBodyCheck {
                 "following",equalTo(29)).log().all();
     }
 
+    /** Instead of using Gherkin Language, to make a difference I did the task with TestNG structure.
+     *  With a BeforeClass method I connected to my server with saved Url through configuration properties
+     *  I verified status code, contentType, in the header Content Length,
+     *  and later on verified the remaining details with a HamCrest Matchers.
+     *  At the end Logged All so I could see the body.
+     * */
+
 
 }

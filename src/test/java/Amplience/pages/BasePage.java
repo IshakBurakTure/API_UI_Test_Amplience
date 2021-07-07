@@ -7,9 +7,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static io.restassured.RestAssured.baseURI;
-
 public abstract class BasePage {
+
+    /**
+     *  I Created BasePage so I can keep all my WebElements in same place, easy to reuse, easy to modify/maintain.
+     *  I made the class abstract and created DashboardPage which extends BasePage.
+     *  With that, I am not revealing my code.
+     *
+     * */
 
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);

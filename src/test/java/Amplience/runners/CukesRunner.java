@@ -17,3 +17,11 @@ import org.junit.runner.RunWith;
 
 public class CukesRunner {
 }
+
+
+    /** I run my Cucumber Framework through my CukesRunner class.
+     * With plugin, I can check the reports.
+     * Tags help me to run specific Scenario.
+     * Dry run helps me to quickly scan my features without actually running them.
+     *
+     * */

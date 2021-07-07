@@ -31,4 +31,12 @@ public class GitProfileCheck {
     }
 
 
+    /** I used my dashboard to invoke the Web elements which I saved into BasePage
+     *  Went to the website through my Configuration properties class saved URL
+     *  Verified the Current Url with Saved Url with a method which I created into BasePage
+     *  Using the help of Map(Key Value structure) verified the profile details
+     *
+     * */
+
+
 }
