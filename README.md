@@ -24,6 +24,7 @@ Run the code.
 3- Run the code from Terminal with "mvn clean verify" keyword.
 
 For the First Task:
+
 -Go to src -> test -> java -> Amplience -> steps -> JsonBodyCheck
 Run the "checkUser()".
 
